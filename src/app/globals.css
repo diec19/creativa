@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  @apply py-20;
+}
+
+
+/*aaaclassName="bg-gradaaaaaant-custom"aaaaasssadiente */
+.bg-gradient-custom {
+  @apply bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300;
+}
+
+/* Clases para el efecto de fade-in */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
