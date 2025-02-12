@@ -37,7 +37,7 @@ const Expert = () => {
             }
         ]
     };
-
+      //git
     return (
         <section className="bg-primary/15">
             <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md'>
